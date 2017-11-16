@@ -1,7 +1,5 @@
 # ShimmerLayout-master
 ShimmerLayout
-# RecyclerView
-recycler view
 
 <h1>Live Sample</h1>
 
