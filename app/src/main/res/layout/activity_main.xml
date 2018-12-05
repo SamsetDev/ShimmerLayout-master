@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samset.androidshimmerlayout.MainActivity">
+
+    <com.samset.samsetshimmerlayout.views.ShimmerRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:demo_child_count="10"
+        app:demo_layout="@layout/recyclerview_shimmer"
+        app:demo_layout_manager_type="linear_vertical" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
